@@ -82,8 +82,9 @@ header {
   .weather-forecast-box .real-feel {
     display: none;
   }
+}
 
-  /* Stil pentru a ascunde și poziționa butonul */
+/* Stil pentru a ascunde și poziționa butonul */
 .scroll-to-top {
     position: fixed;
     bottom: 20px;
@@ -103,6 +104,4 @@ header {
       opacity: 1;
       visibility: visible;
   }
-
-}
 
