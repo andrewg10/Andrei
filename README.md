@@ -1,7 +1,7 @@
-#itschool-weather
+IT School Homework
 
 The JS project from my web development course @ IT School
 
-#Demo
+App
 
 The project is deployed here: https://myfirstappandreigemanaru.netlify.app/
