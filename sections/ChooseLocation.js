@@ -22,16 +22,19 @@ function updateWeather(cityName){
 }
 // Adaugam event linstere pe butoane pentru a schimba datele despre vreme
 bucharestButton.addEventListener('click', function(){
-    console.log('clicked');
+    // console.log('clicked'); // Remove the console.log
+    updateWeather('București'); // ADD THIS LINE
 });
 
 timisoaraButton.addEventListener('click', function(){
-    console.log('timisoara clicked');
+    // console.log('timisoara clicked'); // Remove the console.log
+    updateWeather('Timișoara'); // ADD THIS LINE
 });
 
 
 oradeaButton.addEventListener('click', function(){
-    console.log('oradea clicked');
+    // console.log('oradea clicked'); // Remove the console.log
+    updateWeather('Oradea'); // ADD THIS LINE
 });
 
 arad.addEventListener("click", function () {
