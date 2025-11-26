@@ -8,7 +8,7 @@ const sibiu = document.querySelector(".dropdown-menu .sibiu");
 function updateCurrentCityName(city){
     //selectam tag ul de html unde o sa updatam orasul curent
     const currentCity=document.querySelector('.current-city');
-    currentCity.innerHTML=${city}.;
+    currentCity.innerHTML=${city};
 }
 function updateWeather(cityName){
     //salvam in local storage optiunea aleasa
