@@ -2,6 +2,8 @@
 const bucharestButton = document.querySelector('.dropdown-item.bucharest');
 const timisoaraButton = document.querySelector('.dropdown-item.timisoara');
 const oradeaButton = document.querySelector('.dropdown-item.oradea');
+const arad = document.querySelector(".dropdown-menu .arad");
+const sibiu = document.querySelector(".dropdown-menu .sibiu");
 
 // Adaugam event linstere pe butoane pentru a schimba datele despre vreme
 bucharestButton.addEventListener('click', function(){
@@ -15,4 +17,13 @@ timisoaraButton.addEventListener('click', function(){
 
 oradeaButton.addEventListener('click', function(){
     console.log('oradea clicked');
+});
+
+arad.addEventListener("click", function () {
+  updateWeather("Arad");
+});
+
+
+sibiu.addEventListener("click", function () {
+  updateWeather("Sibiu");
 });
